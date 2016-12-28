@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>TronGrid</title>
+</head>
+<body>
+	<FireBoxRoom>
+		<Assets>
+			<AssetObject id="grid" src="grid.obj" mtl="grid.mtl" />
+			<AssetImage id="black" src="black.gif" />
+			<AssetObject id="object_tron-tank" src="tron-tank.obj" mtl="tron-tank.mtl" />
+			<AssetSound id="theme" src="http://obelisksystems.com/vr/tron/tron.mp3" />
+		</Assets>
+		<Room skybox_left_id="black" skybox_right_id="black" skybox_front_id="black" skybox_back_id="black" skybox_up_id="black" skybox_down_id="black" default_sounds="false">
+			<Object id="grid" collision_id="grid" locked="true" pos="0 0 0" />
+			<Object id="object_tron-tank" collision_id="object_tron-tank" locked="true" pos="23.501 -0.026 52.972" xdir="0.741 0.000 0.672" ydir="0.672 0.000 -0.741" zdir="0.000 1.000 0.000" scale="1.430 1.430 1.430" />
+			<Sound id="theme" js_id="233" rect="-100.000 50.000 100.000 -50.000" loop="true" />
+		</Room>
+	</FireBoxRoom>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<FireBoxRoom>
+<Assets>
+<AssetObject id="ironman_head" src="http://bitgrid.io/models/ironman/ironman_head.obj" mtl="http://bitgrid.io/models/ironman/ironman_head.mtl" />
+<AssetObject id="ironman_body" src="http://bitgrid.io/models/ironman/ironman_body.obj" mtl="http://bitgrid.io/models/ironman/ironman_body.mtl" />
+</Assets>
+<Room>
+<Ghost id="sirkitree" js_id="3" pos="-3.449964 0.710924 -0.570465" xdir="-0.447 0.000 0.894" ydir="0.069 0.997 0.034" zdir="-0.892 0.077 -0.446" scale="1 1 1" head_id="ironman_head" head_pos="0.000000 1.200000 0.000000" body_id="ironman_body" eye_ipd="0.064000" userid_pos="0.000000 0.60000 0.250000" />
+</Room>
+</FireBoxRoom>
